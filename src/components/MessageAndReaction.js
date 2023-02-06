@@ -45,7 +45,7 @@ async function openai_test() {
     "presence_penalty": 0
   }`;
 
-  xhr.send(dat
+  xhr.send(dat)
 }
   },[])
 
