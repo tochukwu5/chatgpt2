@@ -51,8 +51,8 @@ async function openai_test() {
 
 
   // answered by @bendytree at https://stackoverflow.com/a/24810220
-  // const aiMessage = new Array(5).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36);});
-  const aiMessage = msg;
+  const aiMessage = new Array(5).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36);});
+  // const aiMessage = msg;
 
   return ( 
     <div className='flex flex-col mt-5'>
