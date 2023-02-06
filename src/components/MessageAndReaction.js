@@ -24,7 +24,7 @@ async function openai_test() {
   xhr.open("POST", url);
 
   xhr.setRequestHeader("Content-Type", "application/json");
-  xhr.setRequestHeader("Authorization", "Bearer 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");
+  xhr.setRequestHeader("Authorization", "Bearer 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");
 
   xhr.onreadystatechange = function () {
      if (xhr.readyState === 4) {
@@ -45,14 +45,14 @@ async function openai_test() {
     "presence_penalty": 0
   }`;
 
-  // xhr.send(dat
+  xhr.send(dat
 }
   },[])
 
 
   // answered by @bendytree at https://stackoverflow.com/a/24810220
-  const aiMessage = new Array(5).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36);});
-  // const aiMessage = msg;
+  // const aiMessage = new Array(5).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36);});
+  const aiMessage = msg;
 
   return ( 
     <div className='flex flex-col mt-5'>
