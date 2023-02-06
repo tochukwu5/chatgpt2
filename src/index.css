@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App{
+    min-height: 90vh !important;
+    position: relative;
+}
